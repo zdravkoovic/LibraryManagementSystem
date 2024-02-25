@@ -1,0 +1,143 @@
+
+.RegistracionaForma {
+    /* width: 100vw; */
+    min-height: 100vh ;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 70px;
+}
+.registracija
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 20px;
+    flex: 1 1 0;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+.divBtnRegistracija
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding-bottom: 20px;
+}
+.divBtnRegistracija button
+{
+    /* margin-top: 10px; */
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.divBtnRegistracija button:hover
+{
+    filter: brightness(1.2);
+}
+.divBtnRegistracija button:nth-child(1)
+{
+    background: rgb(13, 116, 190);
+    color: white;
+    margin-right: 10px;
+}
+.divBtnRegistracija button:nth-child(2)
+{
+    background: var(--crvena);
+    color: white;
+    padding: 15px 40px;
+}
+/* .RegistracionaForma label {
+    color: gray;
+    font-size: 2rem;
+    font-weight: 800;
+} */
+
+.RegistracionaForma .form .String {
+    height: 5rem;
+    border-radius: 3px;
+    outline: none;
+    border: 0px;
+    margin: 0px;
+    /* padding-left: 1.5rem; */
+    font-size: 2rem;
+    border-bottom: 4px solid #ccc;
+    color: black;
+    
+}
+.RegistracionaForma .form .fa-circle-user
+{
+    font-size: 100px;
+    color: var(--plava);
+}
+.kontaktIkonica
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.kontaktIkonica div:nth-child(1)
+{
+    flex: 2 1 0;
+    display: flex;
+    justify-content: center;
+}
+.RegistracionaForma .form {
+    width: 80%;
+    margin-top: 50px;
+    /* max-width: 500px; */
+    /* padding-bottom: 20px; */
+    /* min-height: 400px; */
+    background-color: white ;
+    /* position: relative; */
+    /* border-radius: 50px; */
+    /* box-shadow: 5px 5px 12px 4px black; */
+    /* padding-top: 6rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+@media (max-width: 500px) {
+    .RegistracionaForma .form {
+        box-shadow: none;
+    }
+}
+.kontaktDeo
+{
+    display: flex;
+    flex: 2 1 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+.kontaktDeo .fa-phone
+{
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 50%;
+    background: var(--plava);
+    color: white;
+    margin-right: 20px;
+}
+.RegistracionaForma .row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.RegistracionaForma .opisPodatka
+{
+    display: flex;
+}
+
+@media (max-width: 370px) {
+    .RegistracionaForma .form button {
+        font-size: 1.4rem;
+    }
+}

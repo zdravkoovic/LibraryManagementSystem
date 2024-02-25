@@ -1,0 +1,263 @@
+.PregledSmena
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+.Zaposleni
+{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.btnsCC
+{
+    display: flex;
+    flex-direction: row !important;
+    margin-top: 20px;
+}
+.Zaposleni .upravljajElementima
+{
+    flex: 1 1 0;
+}
+.css-m1a27h
+{
+    width: 100%;
+    /* height: 360px; */
+    
+}
+.divAkcijeRadnik
+{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+.divAkcijeRadnik .fa-user-plus
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+.divAkcijeRadnik .fa-users
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+.divAkcijeRadnik label
+{
+    cursor: pointer;
+}
+.dodajRadnika, .otpustiRadnika
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    width: 120px;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.dodajRadnika
+{
+    background: var(--zelena);
+    color: white;
+}
+.otpustiRadnika
+{
+    background: var(--crvena);
+    color: white;
+}
+.dodajZaposlenog
+{
+    margin-top: calc(60px - 41.6667px - 5px);
+    padding-bottom: 0px;
+}
+.divAkcijeRadnik .fa-arrow-left
+{
+    font-size: 20px;
+    background-color: var(--plava);
+    padding: 10px 30px;
+    margin-right: 10px;
+    /* margin-top: 20px; */
+    color: white;
+    cursor: pointer;
+}
+.cxboxRadnik
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.cxboxRadnik label
+{
+    margin-left: 5px;
+    border-top: none;
+    font-size: 15px;
+}
+.OtpustiRadnika
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.removeEmployee
+{
+    text-align: end;
+}
+.removeEmployee .fa-xmark
+{
+    padding: 2px 10px;
+    background-color: var(--crvena);
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+.removeEmployee .fa-pen-to-square
+{
+    padding: 2px 8px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+/* .css-zw3mfo-MuiModal-root-MuiDialog-root
+{
+    visibility: collapse; 
+    display: none;
+    width: 0px;
+    height: 0px;
+} */
+.rs__popper_actions div:nth-child(2)
+{
+    visibility: hidden !important;
+}
+.dodajSmenu
+{
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+}
+.dodajSmenu > div
+{
+    margin-left: 10px;
+    height: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow: hidden;
+    width: 40px;
+    background: #fdbc00;
+    border-radius: 50%;
+    /* text-align: center;     */
+    transition: .3s;
+}
+.dodajSmenu > div .fa-plus
+{
+    margin-left: 4px;
+}
+.dodajSmenu > div:hover
+{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 120px;
+}
+.dodajSmenu > div > div
+{
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    align-items: center;
+    height: 100%;
+    color: white;
+    cursor: pointer;
+}
+.smenaRadnika
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.podaciDodajSmenu
+{
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.podaciDodajSmenu .opisPodatka
+{
+    border-top: none;
+}
+.podaciDodajSmenu button
+{
+    font-size: 18px;
+    width: 50%;
+    padding: 20px 0px;
+    background-color: rgba(227, 227, 227, 0.267);
+    border: none;
+    transition: .3s;
+}
+.podaciDodajSmenu button:nth-child(1){
+    color: var(--plava);
+    cursor: pointer;
+}
+.podaciDodajSmenu button:nth-child(1):hover{
+    background: var(--plava);
+    color: white;
+}
+.podaciDodajSmenu button:nth-child(2):hover{
+    background: var(--crvena);
+    color: white;
+}
+.podaciDodajSmenu button:nth-child(2){
+    color: var(--crvena);
+    cursor: pointer;
+}
+.podaciDodajSmenu > div{
+    display: flex;
+    flex-direction: column;
+}
+.podaciDodajSmenu > div > div{
+    width: 100%;
+}
+.podaciDodajSmenu div:nth-child(5){
+    flex-direction: row;
+}
+.datum
+{
+    width: 100%;
+    display: flex;
+}
+.datum input
+{
+    flex: 1 1 0;
+    padding: 10px;
+}
+.smena{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.smena div
+{
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+}
+.smena input
+{
+    margin-left: 5px;
+}

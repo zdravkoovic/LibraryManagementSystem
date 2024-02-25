@@ -1,0 +1,35 @@
+.Preporuke {
+    margin-top: 20px;
+}
+.Preporuke p {
+    font-size: 2rem;
+    padding: 0.5rem
+}
+
+
+.scrollPreporuke {
+    display: flex;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory;
+    padding-right: 5vw;
+    padding-top: 0.5rem;
+    margin-left: 6.6vw
+}
+.slick-list {
+    width: 100%;
+}
+
+.NaslovSekcije {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+
+@media screen and (min-width: 520px) {
+    .scrollPreporuke {
+        margin-left: 6.6vw;
+    }
+}

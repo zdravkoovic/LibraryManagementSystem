@@ -1,0 +1,91 @@
+
+.vestOpsirnije
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    margin-bottom: 20px;
+}
+.vestOpsirnije .naslovVesti
+{
+    font-size: 18px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vestOpsirnije .naslovVesti .fa-arrow-left
+{
+    padding: 10px 20px;
+    background-color: var(--crvena);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.vestOpsirnije .naslovVesti .fa-arrow-left:hover
+{
+    filter:saturate(1.3);
+}
+.vestOpsirnije .ispodNaslovaVesti
+{
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+    margin-left: 20px;
+}
+.vestOpsirnije .ispodNaslovaVesti label
+{
+    margin-left: 10px;
+    color: royalblue;
+}
+.vestOpsirnije .slikaVesti
+{
+    /* width: 500px; */
+    flex: 2 1 0;
+    height: 380;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tekstVesti label
+{
+    font-size: 17px;
+}
+.vestOpsirnije .slikaITekst
+{
+    flex: 1 1 0;
+    display: flex;
+}
+
+@media (max-width: 895px) {
+    .vestOpsirnije .slikaITekst {
+        flex-direction: column;
+    }   
+    .slikaVesti {
+        width: 90%;
+    }
+}
+
+.vestOpsirnije .slikaITekst img
+{
+    width: 100%;
+    /*max-height: 500px;*/ 
+}
+.vestOpsirnije .slikaITekst .tekstVesti
+{
+    font-size: 15px;
+    background: rgb(232, 232, 232);
+    flex: 1 1 0;
+    margin: 0 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+.vestOpsirnije .slikaITekst .tekstVesti label
+{
+    flex: 1 1 0;
+    margin: 20px;
+}

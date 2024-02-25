@@ -1,0 +1,132 @@
+.dodajKorisnika
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 30px;
+    height: 360px;
+    margin: auto auto;
+    background: white;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+.dodajKorisnika .fa-circle-user
+{
+    font-size: 80px;
+    color: #001f3f;
+    flex: 1 1 0;
+}
+.unosPodatakaKorisnika
+{
+    flex: 1 1 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: auto auto;
+}
+.btnDodajKorisnika
+{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.ikonicaKorisnika
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.unosKorisnika
+{
+    width: 80%;
+}
+.unosTekstInputKorisnika
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.unosTekstInputKorisnika label
+{
+    width: 82%;
+}
+.sekcijaDodajKorisnika
+{
+    padding-bottom: 0px;
+}
+.Korisnici
+{
+    height: 100%;
+}
+.upravljajKorisnicima
+{
+    height: 100%;
+}
+.unosBrojaTelefona
+{
+    flex: 1 1 0;
+    transition: 0.3s;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    align-items: center;
+}
+.unosBrojaTelefona .fa-phone
+{
+    font-size: 13px;
+    padding: 7px;
+    border-radius: 50%;
+    background-color: #001f3f;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    margin-right: 10px;
+}
+.unosBrojaTelefona input
+{
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 20px;
+    width: 40%;
+    margin-right: 10%;
+}
+.unosBrojaTelefona input:focus
+{
+    outline: none;
+    border: 2px solid rgb(71, 178, 210);
+    box-shadow: 0 2px 3px rgb(71, 178, 210, 0.3);
+}
+.slikaKorisnika
+{
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slikaKorisnika .fa-circle-user
+{
+    font-size: 80px;
+}
+.podaciKorisnika
+{
+    flex: 1 1 0;
+}
+.podatakKorisnika
+{
+    display: flex;
+    justify-content: center;
+}
+.PretragaKorisnika{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: 0.3s;
+}
+.karticeKorisnika
+{
+    margin-bottom: 30px;
+    cursor: pointer;
+}

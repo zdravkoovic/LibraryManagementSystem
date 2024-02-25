@@ -1,0 +1,18 @@
+.KnjigaDetaljno {
+    display: flex;
+}
+
+.KnjigaDetaljno img {
+    width: 240px;
+    height: 270px;
+}
+
+@media screen  and (max-width:545px){
+    .KnjigaDetaljno {
+        flex-direction: column;
+    }
+}
+
+.PodaciOIzabranojKnjizi {
+    color: rgb(37, 36, 36)
+}

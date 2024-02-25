@@ -1,0 +1,75 @@
+.Filteri {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 5px   ;
+    display: none;
+}
+.Filteri button {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+}
+.slobodnaPretraga
+{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+.filteriToggle {
+    /* margin: 0 auto; */
+    display: block;
+    background-color: var(--crvena);
+    color: white;
+    border-radius: 2px;
+    box-sizing: content-box;
+    padding: 10px 25px;
+    font-size: 15px;
+    border: 0;
+    /* box-shadow: 0 2px 10px 2px black; */
+}
+.divFilteri
+{
+    display: flex;
+    justify-content: center;
+
+}
+.divZaFiltere
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filteriToggleActive {
+    background-color: var(--crvena);
+    margin-left: 5px;
+}
+.FilteriActive {
+    display: block;
+    font-size: 16px;
+}
+
+.postaviFiltere {
+    background-color: rgb(135, 220, 9);
+    color: white;
+    border-radius: 2px;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 0;
+    margin-right: 5px;
+    /* box-shadow: 0 2px 10px 2px black; */
+}
+.Filteri img
+{
+    flex: 1 1 0;
+}
+.knjigePrikaz
+{
+    display: flex;
+    flex-direction: column;
+}
+.knjigePrikaz .Knjige p
+{
+    font-size: 14px !important;
+}

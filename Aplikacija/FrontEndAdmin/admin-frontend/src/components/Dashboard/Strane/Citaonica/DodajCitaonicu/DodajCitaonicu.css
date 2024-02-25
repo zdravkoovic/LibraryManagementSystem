@@ -1,0 +1,136 @@
+.formaRed {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.formaRed input, .formaRed label
+{
+    flex: 1 1 0;
+}
+.formaRed label
+{
+    text-align: center;
+}
+.btnCitaonica
+{
+    display: flex;
+    justify-content: space-between;
+}
+.btnCitaonica button:nth-child(2)
+{
+    width: 100px;
+    border: none;
+    background: var(--plava);
+    margin-right: 10px;
+    border-radius: 4px;
+    transition: .3s;
+    cursor: pointer;
+}
+.btnCitaonica button:nth-child(2) .fa-arrow-left
+{
+    color: white;
+}
+.formaRed label
+{
+    border: none;
+    font-size: 17px;
+}
+.dodajDeskChair
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.citaonicaIkonicaIBroj
+{
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.dodajDeskChair .fa-display, .dodajDeskChair .fa-chair, .fa-xmark
+{
+    font-size: 16px;
+    padding: 5px;
+}
+.dodajDeskChair .fa-chair
+{
+    background-color: var(--plava);
+    color: white;
+}
+.dodajDeskChair .fa-display
+{
+    background: var(--zelena);
+    color: white;
+}
+.dodajDeskChair button
+{
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+.btnUkloniMesto
+{
+    background: var(--crvena);
+    color: white;
+    cursor: pointer;
+}
+.DodajCtroleitaonicuKon button
+{
+    font-size: 18px;
+    width: 50%;
+    padding: 20px 0px;
+    background-color: rgba(227, 227, 227, 0.267);
+    border: none;
+    transition: .3s;
+}
+.DodajCtroleitaonicuKon button:nth-child(1){
+    color: var(--plava);
+    cursor: pointer;
+}
+.DodajCtroleitaonicuKon button:nth-child(1):hover{
+    background: var(--plava);
+    color: white;
+}
+.DodajCtroleitaonicuKon button:nth-child(2):hover{
+    background: var(--crvena);
+    color: white;
+}
+.DodajCtroleitaonicuKon button:nth-child(2){
+    color: var(--crvena);
+    cursor: pointer;
+}
+.DodajCtroleitaonicuKon
+{
+    display: flex;
+    justify-content: center;
+}
+.dodajCitaonicu
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.311);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000000;
+}
+.podaciCitaonice
+{
+    width: 500px;
+    background: white;
+    padding: 40px;
+    border-radius: 4px;
+}
+.formaRed input {
+    margin-left: 15px;
+}
+.dodajCitaonicu label
+{
+    cursor: pointer;
+}
+.dodajElement.citaonicePregled
+{
+    margin-top: 20px !important;
+}

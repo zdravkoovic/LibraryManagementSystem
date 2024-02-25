@@ -1,0 +1,8 @@
+.NoPage {
+    height: calc( 100vh - 70px );
+    text-align: center;
+    padding-top: 300px;
+    font-size: 50px;
+    color:red;
+    font-weight: 800;
+}

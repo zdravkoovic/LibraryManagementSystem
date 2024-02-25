@@ -1,0 +1,124 @@
+.Sidebar {
+    width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -410px;
+    box-shadow: 2px 2px 10px 2px black;
+    transition: .3s;
+    background: var(--plava);
+    z-index: 4;
+}
+
+.SidebarActive {
+    left: 0;
+    width: 80%;
+    
+}
+
+.SideBarLoginBtn {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+.SideBarLoginBtn button
+{
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #ccc;
+    background-color: var(--plava);
+    color: white;
+}
+.SidebarHeader {
+    background-color: var(--plava);
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px gray solid;
+}
+.SidebarHeaderInner {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Sidebar .X {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: var(--crvena);
+}
+
+.LogoArea {
+    display: flex;
+    align-items: center;
+}
+
+.LogoArea p {
+    color: white;
+    font-weight: 400;    
+}
+
+
+.LogOutButton {
+    width: 40%;
+    max-width: 150px;
+    height: 40px;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    font-weight: 800;
+}
+
+.Logo-Sidebar {
+    width: 35px;
+    height: auto;
+}
+
+.SidebarLinkovi {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.SidebarLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 30px 0;
+}
+.Sidebar .fa-house, .Sidebar .fa-phone
+{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.SidebarLink p {
+    margin-left: 60px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 430px) {
+    .SidebarActive
+    {
+        width: 100%;
+        background: var(--plava);
+    }
+    .Ogranak
+    {
+        width: 100%;
+        margin: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    .Ogranak img
+    {
+        max-width: 100% !important;
+    }
+}

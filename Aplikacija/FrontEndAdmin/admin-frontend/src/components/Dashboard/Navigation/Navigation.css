@@ -1,0 +1,109 @@
+.Navigation
+{
+    width: 250px;
+    background: var(--plava);
+    transition: 0.3s;
+}
+
+.NavigationSmall {
+    width: 60px;
+    overflow: hidden;
+}
+.navigationItems
+{
+    width: 250px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    overflow: hidden;
+    justify-content: space-between;
+    height: 100%;
+    background: var(--plava);
+}
+.navigationItemsSmall
+{
+    width: 60px;
+    overflow: hidden;
+}
+.navigationItems a
+{
+    text-decoration: none;
+}
+.Navigation .fa-house, .Navigation .fa-bars
+{
+    font-size: 30px;
+}
+.Navigation .fa-bars
+{
+    color: white;
+    cursor: pointer;
+}
+.navigationItems a
+{
+    color: white;
+}
+.navIconHome
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* height: 10%; */
+    /* margin-bottom: 10%; */
+}
+.navIconHomeSmall {
+    
+    justify-content: flex-end;
+}
+
+.fa-book-open, .fa-book-open-reader, .fa-newspaper, .fa-users, .fa-map-location-dot, 
+.fa-people-group, .fa-chart-line, .fa-circle-info
+{
+    font-size: 30px;
+}
+.divIkonicaTekst
+{
+    padding: 5px;
+    /* max-height: 60%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* flex: 1 1 0; */
+}
+.ikonicaTekst
+{
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    background-color: inherit;
+    cursor: pointer;
+    padding: 13px 5px;
+    transition: background-color 0.2s ease-out;
+}
+.ikonicaTekst:hover
+{
+    color: #001f3f;
+    background: white;
+}
+.ikonicaTekst:hover label, .ikonicaTekst.active label
+{
+    color: #001f3f;
+}
+.ikonicaTekst label
+{
+    margin: auto auto;
+    color: white;
+    cursor: pointer;
+}
+.ikonicaTekst.active{
+    color: #001f3f;
+    background-color: white;
+    
+}
+.divPodrska
+{
+    /* flex: 1 1 0; */
+    /* height: 10%; */
+    display: flex; 
+    align-items: flex-end;
+}

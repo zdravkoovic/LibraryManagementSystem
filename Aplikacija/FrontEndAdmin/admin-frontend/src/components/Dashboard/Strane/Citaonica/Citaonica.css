@@ -1,0 +1,133 @@
+.Citaonica
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.selectCitaonica
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.css-b62m3t-container
+{
+    width: 32%;
+    min-width: 228px;
+
+}
+.prikazCitaonice
+{
+    display: flex;
+    margin-top: 60px;
+    background-color: rgba(236, 236, 236, 0.3);
+    padding: 40px 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Citaonica .dodajElement
+{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.mesto
+{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    margin: 5px 10px;
+}
+.mesto.crvena
+{
+    color: #61210f;
+    background-image: linear-gradient(315deg, #61210f 0%, #ee6c4d 74%);
+    
+}
+.mesto.zelena
+{
+    color: #378b29;
+    background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
+}
+.mesto.sivo {
+    color: gray;
+    background-image: linear-gradient(315deg, #0e0f0e 0%, #0d0d0d 74%);
+}
+.citaonicaIkonicaIBroj
+{
+    font-family:fantasy;
+    font-size: 20px;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.css-1s2u09g-control
+{
+    padding: 6px;
+    border-width: 2px !important;
+    font-size: 15px !important;
+    color: rgb(59, 59, 59) !important;
+}
+.css-1pahdxg-control
+{
+    padding: 6px;
+    border-width: 2px !important;
+    font-size: 15px !important;
+    color: rgb(59, 59, 59) !important;
+    outline: none;
+    border: 2px solid rgb(71, 178, 210) !important;
+    box-shadow: 0 2px 3px rgb(71, 178, 210, 0.3) !important;
+}
+
+
+.DodajCtroleitaonicuKon {
+    display: flex;
+}
+
+
+button.dodajCitaonicu:hover, button.dodaj:hover, button.citaoniceBtn:hover
+{
+    background: #0BDA51;
+    color: white;
+}
+.rasporedSedenja
+{
+    flex: 1 1 0;
+    display: grid;
+}
+.CitaonicaJednaPregled
+{
+    flex: 1 1 0;
+    
+}
+.btnDodajCitaonicu
+{
+    width: 100px;
+    padding: 10px 0;
+    margin-left: 10px;
+    border: 2px solid var(--zelena);
+    color: var(--zelena);
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 3px;
+}
+.btnDodajCitaonicu label
+{
+    cursor: pointer;
+}
+.btnDodajCitaonicu:hover
+{
+    background: var(--zelena);
+    color: white;
+}

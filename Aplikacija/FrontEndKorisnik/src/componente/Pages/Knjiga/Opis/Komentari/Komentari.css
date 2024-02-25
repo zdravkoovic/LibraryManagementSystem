@@ -1,0 +1,99 @@
+.Komentari {
+    background-color: rgb(234, 207, 172);
+    width: 100%;
+    min-height: 100px;
+    display: block;
+}
+.Komentar {
+    min-height: 50px;
+    padding: 10px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    width: 99%;
+    margin: 10px auto;
+    
+}
+.Komentar h1 {
+    color: rgb(21, 137, 137);
+}
+.Komentar p {
+    font-size: 20px;
+}
+.Komentar .datum {
+    color:orange
+}
+
+.Komentar button {
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+    font-size: 20;
+    color:white;
+    font-weight: 500;
+}
+
+
+.Komentar button.Izmeni {
+    background-color: orange;
+
+}
+
+.Komentar button.Obrisi {
+    background-color: red;
+}
+
+.Komentar button.SacuvajIzmene {
+    background-color: orangered;
+    width: 120px;
+
+}
+.DodajKomentar {
+    margin-bottom: 20px;
+    margin-left: 5%;
+    background-color: green;
+    color:white;
+    width: 60px;
+    height: 30px;
+}
+
+.dodajKomentar {
+    min-height: 50px;
+    padding: 10px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;   
+}
+
+.dodajKomentar textarea, .izmenaKomentara {
+    max-width: 95%;
+    width: 95%;
+    min-width: 95%;
+    min-height: 60px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;    
+    outline: none;
+    border: 0;
+    
+}
+
+.dodajKomentar .Sacuvaj {
+    
+    
+    background-color: green;
+    color:white;
+    width: 60px;
+    height: 30px;   
+    margin-right: 10px;
+}
+
+.dodajKomentar .Odustani {
+    background-color: red;
+    color:white;
+    width: 60px;
+    height: 30px; 
+    
+}

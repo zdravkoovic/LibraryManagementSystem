@@ -1,0 +1,89 @@
+.Profil
+{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Profil .pretraziElement .fa-circle-user
+{
+    font-size: 90px;
+    color: var(--plava);
+}
+.Profil .pretraziElement
+{
+    justify-content: space-between;
+     
+}
+.Profil .pretraziElement .fa-arrow-right-from-bracket
+{
+    font-size: 20px;
+}
+.Profil .pretraziElement > div
+{
+    width: 130px;
+    display: flex;
+    justify-content: flex-end;
+}
+.Profil .pretraziElement > div > div
+{
+    color: white;
+    background: var(--plava);
+    overflow: hidden;
+    width: 50px;
+    transition: .3s;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+}
+.Profil .pretraziElement > div > div > div
+{
+    display: flex;
+    width: 105px;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.Profil .pretraziElement > div > div:hover
+{
+    width: 150px;
+}
+.Profil .dodajElement
+{
+    justify-content: space-around;
+    flex: 1 1 0;
+    /* padding-bottom: 0px; */
+    /* align-items: center; */
+}
+.licniPodaci
+{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 10px;
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.3); */
+    background: rgb(255, 255, 255);
+    margin-bottom: 18px;
+}
+.Profil .pretraziElement span
+{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 30px;
+}
+.kalendarAktivnosti
+{
+    flex: 3 1 0;
+}
+.podatakProfil
+{
+    display: flex;
+    justify-content: center;
+    font-style:oblique;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.css-hz1bth-MuiDialog-container, .css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop,.css-zw3mfo-MuiModal-root-MuiDialog-root
+{
+    visibility: hidden;
+    width: 0px !important;
+} 

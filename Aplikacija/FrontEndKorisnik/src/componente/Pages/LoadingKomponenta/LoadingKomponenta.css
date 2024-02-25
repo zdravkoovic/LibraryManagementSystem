@@ -1,0 +1,15 @@
+.LoadingContainer {
+    padding-top: 120px;
+    text-align: center;
+}
+.LoadingContainer p {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.LoadingContainer .fa-spinner {
+    font-size: 50px;
+    animation-name: loading;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}

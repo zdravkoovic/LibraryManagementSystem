@@ -1,0 +1,22 @@
+
+
+.HamburgerButton {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+.HamburgerButton .fa-bars
+{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (min-width: 995px) {
+    .HamburgerButton {
+        display: none;
+    }
+}

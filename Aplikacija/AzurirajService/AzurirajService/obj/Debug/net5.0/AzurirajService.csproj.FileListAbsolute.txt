@@ -1,0 +1,16 @@
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\bin\Debug\net5.0\AzurirajService.exe
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\bin\Debug\net5.0\AzurirajService.deps.json
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\bin\Debug\net5.0\AzurirajService.runtimeconfig.json
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\bin\Debug\net5.0\AzurirajService.runtimeconfig.dev.json
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\bin\Debug\net5.0\AzurirajService.dll
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\bin\Debug\net5.0\ref\AzurirajService.dll
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\bin\Debug\net5.0\AzurirajService.pdb
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\obj\Debug\net5.0\AzurirajService.csproj.AssemblyReference.cache
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\obj\Debug\net5.0\AzurirajService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\obj\Debug\net5.0\AzurirajService.AssemblyInfoInputs.cache
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\obj\Debug\net5.0\AzurirajService.AssemblyInfo.cs
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\obj\Debug\net5.0\AzurirajService.csproj.CoreCompileInputs.cache
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\obj\Debug\net5.0\AzurirajService.dll
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\obj\Debug\net5.0\ref\AzurirajService.dll
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\obj\Debug\net5.0\AzurirajService.pdb
+D:\Fakultet\6. Semestar\2 Softversko Inzenjerstvo\Folder Projekat\si.22.04.lms\Aplikacija\AzurirajService\AzurirajService\obj\Debug\net5.0\AzurirajService.genruntimeconfig.cache

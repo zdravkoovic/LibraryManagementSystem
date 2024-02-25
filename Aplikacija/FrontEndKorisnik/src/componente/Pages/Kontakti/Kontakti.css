@@ -1,0 +1,38 @@
+.kontakti {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(245, 245, 245);
+}
+
+
+.kontakti .Ogranak {
+    /* width: 90%; */
+    /* max-width: 500px; */
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 12px 2px black; */
+}
+.kontakti .Ogranak .divPodatak
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 2px solid rgba(204, 204, 204, 0.509);
+}
+.kontakti .Ogranak .podatakKontakt
+{
+    font-size: 19px;
+}
+.kontakti .Ogranak img
+{
+    max-width: 400px;
+}

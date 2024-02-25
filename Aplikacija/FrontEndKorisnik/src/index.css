@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 60%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root
+{
+    --plava: #001f3f;
+    --zelena: #0BDA51;
+    --crvena: #DD4124;
+    --narandzasta: #fdbc00;
+}
+html
+{
+  min-height: 100%;
+}
+body
+{
+  min-height: 100%;
+  height: 100%;
+}
+#root
+{
+  min-height: 100%;
+}
+.slick-arrow {
+  background-color: black !important;
+  max-width: 25px !important;
+  border-radius: 50%;
+  height: 25px !important;
+
+}
+
+.Sekcija .slick-initialized {
+  overflow: hidden;
+}
+.Sekcija .slick-arrow {
+  display: none;
+}
+
+.slick-track {
+  height: 300px;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.slick-arrow.slick-next, .slick-arrow.slick-prev
+{
+  display: none !important;
+}
+
+.slick-track .slick-slide > div {
+
+  display: flex;
+  height: 100%;
+  flex: 1 1 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (max-width: 500px) {
+  .slick-initialized { overflow: hidden; }
+  .slick-track {
+    height: 260px;
+  }
+}
+
+@media (max-width: 300px) {
+  .slick-track {
+    height: 220px;
+  }
+}
+.opisPodatka
+{
+    color: rgb(71, 178, 210);
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: 400;
+}
+.unosPodataka
+{
+    border-radius: 3px;
+    border: 2px solid #ccc;
+    padding: 1rem;
+    font-size: 16px;
+}
+.unosPodataka:focus
+{
+    outline: none;
+    border: 2px solid rgb(71, 178, 210);
+    box-shadow: 0 2px 3px rgb(71, 178, 210, 0.3);
+}

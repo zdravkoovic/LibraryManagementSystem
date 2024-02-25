@@ -1,0 +1,52 @@
+.Statistika .dodajElement
+{
+    justify-content: space-around;
+    align-items: center;
+}
+.Statistika
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.Statistika .dodajElement
+{
+    height: 100%;
+}
+.Statistika .dodajElement > div
+{
+    display: flex;
+    width: 27%;
+    height: 95px;
+    background-color: var(--crvena);
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.Statistika .tekstStatistikaNav
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 0;
+}
+.Statistika .tekstStatistikaNav label:nth-child(1)
+{
+    font-size: 40px;
+}
+.Statistika .tekstStatistikaNav label:nth-child(2)
+{
+    font-style: oblique;
+}
+.Statistika .ikonicaStatistikaNav
+{
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ikonicaStatistikaNav .fa-users, .ikonicaStatistikaNav .fa-people-group, .ikonicaStatistikaNav .fa-book
+{
+    font-size: 50px;
+}

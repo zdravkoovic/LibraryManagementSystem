@@ -1,0 +1,78 @@
+.Podmeni {
+    position: fixed;
+    display: flex;
+    top:70px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    z-index: 3;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    height: 35px;
+    transition: 0.3s;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+}
+.Podmeni.hidden
+{
+    height: 0;
+    border: none;
+}
+.OnPageLink {
+    text-decoration: none;
+    font-size: 20px;
+    /* flex: 1 1 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 50px; */
+    z-index: 3;
+    font-style: oblique;
+    color: black;
+}
+.OnPageLinkActive
+{
+    color: rgb(71, 178, 210);
+}
+.strelicaZaPodmeni
+{
+    position: fixed;
+    z-index: 10000000;
+    top: 105px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transition: .3s;
+    transform: rotate(180deg);
+}
+.strelicaZaPodmeni.up
+{
+    top: 68px;
+    transform: rotate(0deg);
+}
+.strelicaZaPodmeni .fa-angle-down
+{
+    color: black;
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media (max-width: 740px) {
+
+    .OnPageLink {
+        width: 22%;
+        font-size: 14px;
+    }
+    .OnPageLinkActive {
+        width: 24%;
+    }
+    .strelicaZaPodmeni .fa-angle-down
+    {
+        padding: 1px;
+    }
+    .searchButton img
+    {
+        padding: 5px !important;
+    }
+}

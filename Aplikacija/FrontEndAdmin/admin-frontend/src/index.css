@@ -1,0 +1,141 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+:root
+{
+    --plava: #001f3f;
+    --zelena: #0BDA51;
+    --crvena: #DD4124;
+    --narandzasta: #fdbc00;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 90%;
+}
+body, html, #root{
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.pretraziElement
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.inputElement
+{
+    min-width: 230px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputElement input
+{
+    width: 60%;
+    border: 2px solid #ccc;
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+    transition: 0.3s;
+    padding: 0.875rem;
+    border-radius: 4px;
+}
+.inputElement input:focus
+{
+    outline: none !important;
+    width: 100%;
+    border: 2px solid rgb(71, 178, 210);
+    box-shadow: 0 2px 5px rgb(71, 178, 210, 0.3);
+}
+.pretraziElement .fa-magnifying-glass
+{
+    font-size: 20px;
+    color: darkgray;
+    cursor: pointer;
+    margin-left: 5px;
+    height: 28px;
+}
+.dodajElement
+{
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    border-radius: 3px;
+    background: rgba(236, 236, 236, 0.3);
+    padding: 35px 0;
+    /* min-height: 100%; */
+    /* height: 100%; */
+    flex: 1 1 0;
+}
+.upravljajElementima
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+.btnDodaj
+{
+    padding: 15px 30px;
+    border: none;
+    background: #001f3f;
+    color: white;
+    cursor: pointer;
+}
+.btnDodaj:hover
+{
+    filter: brightness(1.3);
+}
+.unosPodataka
+{
+    border-radius: 3px;
+    border: 2px solid #ccc;
+    padding: 0.4rem;
+}
+.unosPodataka:focus
+{
+    outline: none;
+    border: 2px solid rgb(71, 178, 210);
+    box-shadow: 0 2px 3px rgb(71, 178, 210, 0.3);
+}
+.labelaPodataka
+{
+    color: rgb(71, 178, 210);
+    font-style: oblique;
+    font-size: 13px;
+}
+.kartice
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 280px;
+    height: 340px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    /* margin-bottom: 30px; */
+}
+
+.opisPodatka
+{
+    color: rgb(71, 178, 210);
+    font-style: oblique;
+    font-size: 13px;
+    border-top: 1px solid rgba(204, 204, 204, 0.459);
+}

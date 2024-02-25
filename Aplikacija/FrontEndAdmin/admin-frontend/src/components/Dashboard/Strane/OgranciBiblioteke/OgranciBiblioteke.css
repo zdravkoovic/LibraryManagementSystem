@@ -1,0 +1,186 @@
+.Biblioteke .kartice
+{
+    width: 400px;
+    margin-top: 20px;
+}
+.Biblioteke
+{
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+}
+.Biblioteke .upravljajElementima
+{
+    flex: 1 1 0;
+}
+.Biblioteke .dodajBiblioteku
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Biblioteke .dodajElement
+{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Biblioteke .podatak
+{
+    text-align: center;
+}
+.slikaBiblioteke
+{
+    width: 80%;
+    max-width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.slikaBiblioteke:hover
+{
+    border: 2px dotted rgb(71, 178, 210);
+    color: rgba(49, 157, 189, 0.5);
+    box-shadow: 0 2px 10px rgb(71, 178, 210, 0.3);
+}
+.slikaBiblioteke .fa-image
+{
+    color: var(--plava);
+    font-size: 100px;
+}
+.slikaKorisnika .fa-circle-user
+{
+    color: var(--plava);
+}
+.editBiblioteke
+{
+    text-align: end;
+    color: var(--plava);
+    border-top: 1px solid rgba(207,207,207,0.5);
+    font-size: 20px;
+}
+.editBiblioteke .fa-pen-to-square
+{
+    cursor: pointer;
+}
+.Biblioteke .pretraziElement
+{
+    justify-content: flex-end;
+}
+.addBiblioteka
+{
+    width: 80px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:2px solid #0BDA51;
+    color: #0BDA51;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.addBiblioteka:hover
+{
+    background: #0BDA51;
+    color: white;
+}
+.removeBiblioteka
+{
+    width: 80px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #DD4124;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #DD4124;
+    transition: .3s;
+}
+.removeBiblioteka:hover
+{
+    background: #DD4124;
+    color: white;
+}
+.removeBiblioteka
+{
+    margin-right: 20px;
+}
+.addBiblioteka
+{
+    margin-right: 7px;
+}
+.dodajBiblioteku .fa-arrow-left, .izbrisiBiblioteku .fa-arrow-left
+{
+    background-color: var(--plava);
+    padding: 12px 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+.dodajBiblioteku .fa-arrow-left:hover, .izbrisiBiblioteku .fa-arrow-left:hover
+{
+    filter: brightness(1.2);
+}
+.dodajBiblioteku .pretraziElement, .izbrisiBiblioteku .pretraziElement
+{
+    align-items: flex-start;
+}
+.dodajBibliotekuPodaci
+{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.btnDodajBiblioteku
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unosPodatakaDodajBiblioteku
+{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 100px;
+}
+.dodajBiblioteku .dodajElement
+{
+    padding-bottom: 0px;
+}
+.dodajBiblioteku .opisPodatka
+{
+    border: none;
+}
+.dodajBiblioteku .fa-plus
+{
+    color: #ccc;
+    font-size: 20px;
+}
+.slikaBiblioteke img
+{
+    width: 100%;
+    min-width: 200px;
+}
+.slikaBiblioteke
+{
+    overflow: hidden;
+    width: 100%;
+}
+.pregledBiblioteke
+{
+    flex-direction: row !important;
+    flex-wrap: wrap;
+}

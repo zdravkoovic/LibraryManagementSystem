@@ -1,0 +1,12 @@
+.Ogranci {
+    position: absolute;
+    top:200px;
+    min-width: 400px;
+    background-color: rgb(30, 7, 78);
+    color:white;
+    left: calc( 50vw - 200px );
+    z-index: inherit;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 14px black;
+}

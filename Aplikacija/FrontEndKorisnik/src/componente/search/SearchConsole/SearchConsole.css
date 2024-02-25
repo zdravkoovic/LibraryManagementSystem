@@ -1,0 +1,94 @@
+
+
+
+
+.searchConsoleBackground {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: rgba(104, 101, 101, 0.7);
+    
+}
+
+.searchConsoleArea {
+    top: calc( calc( 100vh - 500px ) / 2 );
+    left: calc( calc( 100vw - 500px ) / 2 );
+    width: 500px;
+    height: 400px;
+    position:fixed;
+    background-color: white;
+    z-index: 6;
+    margin: 70px auto 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .searchConsoleArea {
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+.Search {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+.SearchInner {
+    width: 80%;
+    border: 2px purple solid;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+
+}
+.searchConsoleArea .Search input {
+    width: 80%;
+    display: block;
+    font-size: 2.8rem;
+    outline: none;
+    border: 0;
+}
+
+.Search p {
+    display: block;
+    color: rgb(0, 140, 255);
+    font-size: 2rem;
+}
+@media screen and (min-width: 501px) {
+    .Search p { display:  none;}
+}
+.Search img {
+    width: 3rem;
+    height: auto;
+    display: block;   
+}
+
+.searchDelete {
+    display: block;
+    color: rgb(0, 140, 255);
+    font-size: 2rem;
+}
+.settings {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: calc( 100% - 60px );
+    justify-content: space-evenly;
+}
