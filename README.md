@@ -47,7 +47,7 @@ U delu "Čitaonica", a na osnovu lokacije biblioteke gde je radnik raspoređen d
   <img width="449" alt="6" src="https://github.com/zdravkoovic/LibraryManagementSystem/assets/76448150/261ab485-7e65-4141-993c-d7c87f79087">
 </p>
 
-### Menadžer biblioteke
+### 3. Menadžer biblioteke
 
 U odnosu na radnika, menadžer ima dodatne mogućnosti poput pristupa delu za zaposlene pa, samim tim, može da zaposli ili otpusti radnika i da dodeli smene pomoću kalendara koji se nalazi u tom delu. Ima pristup statistici koja pokazuje poslovanje na mesečnom nivou. 
 
