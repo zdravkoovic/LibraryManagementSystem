@@ -16,20 +16,18 @@ Opširnije o događaju je stranica prikazana na slici ispod.
 
 <p align="center">
   <img width="449" alt="2" src="https://github.com/zdravkoovic/LibraryManagementSystem/assets/76448150/e014de2f-300d-4d85-bb15-cec987e634ba">
-![2]()
-
 </p>
 
 Kontakt stranica:
 
 <p align="center">
-  ![3](https://github.com/zdravkoovic/LibraryManagementSystem/assets/76448150/4f575a20-20da-4655-bc6e-5314beba7f75)
+  <img width="449" alt="3" src="https://github.com/zdravkoovic/LibraryManagementSystem/assets/76448150/4f575a20-20da-4655-bc6e-5314beba7f75">
 </p>
 
 Stranica za registraciju je dizajnirana tako da podseća na karton za učlanjenje u biblioteci.
 
 <p align="center">
-  ![5](https://github.com/zdravkoovic/LibraryManagementSystem/assets/76448150/68269354-30f5-4936-8fba-6b2be4d7b564)
+  <img width="449" alt="4" src="https://github.com/zdravkoovic/LibraryManagementSystem/assets/76448150/68269354-30f5-4936-8fba-6b2be4d7b564">
 </p>
 
 ### 2. Radnik biblioteke
