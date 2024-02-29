@@ -9,7 +9,8 @@ Kratak opis aplikacije:
 Na početnoj stranici se nalaze vesti o događajima koje organizuje biblioteka, a ispod toga predlozi knjiga po žanrovima.
 
 <p align="center">
-  ![1](https://github.com/zdravkoovic/LibraryManagementSystem/assets/76448150/12add05c-73d1-4d6d-b351-b22b9076aedf)
+  ![1](https://github.com/zdravkoovic/LibraryManagementSystem/assets/76448150/e33867fd-2d9e-4b6f-9e2f-4b4ab3b167d6)
+
 </p>
 
 Opširnije o događaju je stranica prikazana na slici ispod.
