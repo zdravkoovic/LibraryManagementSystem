@@ -15,7 +15,9 @@ Na početnoj stranici se nalaze vesti o događajima koje organizuje biblioteka, 
 Opširnije o događaju je stranica prikazana na slici ispod.
 
 <p align="center">
-  ![2](https://github.com/zdravkoovic/LibraryManagementSystem/assets/76448150/824fc94d-2299-4bbd-bc4d-ede0f3896d81)
+  <img width="449" alt="2" src="https://github.com/zdravkoovic/LibraryManagementSystem/assets/76448150/e014de2f-300d-4d85-bb15-cec987e634ba">
+![2]()
+
 </p>
 
 Kontakt stranica:
